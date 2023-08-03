@@ -61,3 +61,53 @@ h1 {
 #banner .navbar .follow-container .follow {
     margin-right: 10px;
 }
+
+/* Banner ---- Home Banner Styles  */
+
+#banner .home-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+/* Media Query for Mobile Device */
+
+@media screen and (max-width: 768px) {
+    #banner .navbar {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #banner .navbar .logo-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #banner .navbar .menu-right {
+        display: block;
+        width: 100%;
+    }
+
+    #banner .navbar .menu-right .menu-options {
+        display: block;
+        width: 100%;
+    }
+
+    #banner .navbar .follow-container {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #banner .navbar .menu-item {
+        margin-bottom: 20px;
+    }
+
+    #banner .home-banner {
+        flex-direction: column;
+    }
+}
