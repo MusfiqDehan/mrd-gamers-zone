@@ -42,6 +42,7 @@ h1 {
 #banner .navbar .logo {
     display: block;
     margin-right: 10px;
+    width: 50px;
 }
 
 #banner .navbar .menu-right {
@@ -176,11 +177,51 @@ section#featured .featured-images figure:hover + .watch-now-container {
     display: flex;
 }
 
-/* Media Query for Mobile Device */
+/* Poster 1  */
+
+#poster-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+#poster-1 .left {
+    position: relative;
+    width: 50%;
+}
+
+#poster-1 .left h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#poster-1 .left p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 50%;
+}
+
+#poster-1 .right {
+    position: relative;
+    width: 50%;
+}
+
+#poster-1 .large-img {
+}
+
+#poster-1 .small-img {
+    position: absolute;
+    bottom: -20%;
+    left: -20%;
+}
+
+/* ================Media Query for Mobile Device======== */
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 900;
     }
 
@@ -197,6 +238,7 @@ section#featured .featured-images figure:hover + .watch-now-container {
         width: 100%;
         align-items: center;
         justify-content: center;
+        padding: 20px 0;
     }
 
     #banner .navbar .menu-right {
