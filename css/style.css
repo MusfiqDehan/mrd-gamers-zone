@@ -304,4 +304,12 @@ section#featured .featured-images figure:hover + .watch-now-container {
         place-items: center;
         gap: 50px;
     }
+
+    #category .c-top {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #category .c-bottom {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
