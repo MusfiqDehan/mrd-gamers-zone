@@ -218,16 +218,16 @@ section#featured .featured-images figure:hover + .watch-now-container {
     left: -20%;
 }
 
+/* Category/Tag Section */
+
 #category .c-top {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    justify-content: space-evenly;
 }
 
 #category .c-bottom {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-content: space-evenly;
 }
 
 .c-top .c-1 {
