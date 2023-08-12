@@ -219,12 +219,14 @@ section#featured .featured-images figure:hover + .watch-now-container {
 }
 
 #category .c-top {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: space-evenly;
 }
 
 #category .c-bottom {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-evenly;
 }
 
