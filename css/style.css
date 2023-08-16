@@ -210,6 +210,7 @@ section#featured .featured-images figure:hover + .watch-now-container {
 }
 
 #poster-1 .large-img {
+    width: 500px;
 }
 
 #poster-1 .small-img {
@@ -230,7 +231,10 @@ section#featured .featured-images figure:hover + .watch-now-container {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.c-top .c-1 {
+.c-top .c-1,
+.c-4,
+.c-5,
+.c-6 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -305,11 +309,27 @@ section#featured .featured-images figure:hover + .watch-now-container {
         gap: 50px;
     }
 
+    #poster-1 {
+        flex-direction: column;
+        padding: 100px 50px;
+        text-align: center;
+    }
+
+    #poster-1 .left {
+        width: 100%;
+    }
+
     #category .c-top {
         grid-template-columns: repeat(3, 1fr);
     }
 
     #category .c-bottom {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .c-4,
+    .c-5,
+    .c-6 {
+        display: none;
     }
 }
